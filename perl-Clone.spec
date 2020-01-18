@@ -1,6 +1,6 @@
 Name:           perl-Clone
 Version:        0.34
-Release:        5%{?dist}
+Release:        3%{?dist}
 Summary:        Recursively copy perl data types
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -57,12 +57,6 @@ make test
 %{_mandir}/man3/*.3*
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.34-5
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.34-4
-- Mass rebuild 2013-12-27
-
 * Mon Jun 24 2013 Jitka Plesnikova <jplesnik@redhat.com> - 0.34-3
 - Update dependencies
 
